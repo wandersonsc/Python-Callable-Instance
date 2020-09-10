@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wandersonsc/Python-Callable-Instance.svg?branch=master)](https://travis-ci.org/wandersonsc/Python-Callable-Instance)
+
 # Python Callable Instances
 
 ### The Pythonic Way To Create A Simple And Yet Efficient Cache.
