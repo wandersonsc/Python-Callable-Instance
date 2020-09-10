@@ -1,12 +1,13 @@
 import pytest
+import socket
 from simple_cache import Cache
 
 
 def test_cache():
 
-    host = "www.google.com"
+    host = socket.gethostbyname("www.google.com")
     cache = Cache()
 
-    assert "172.217.28.228" in cache(host)
+    assert host in cache(host)
 
     # www.google.com': '172.217.28.228

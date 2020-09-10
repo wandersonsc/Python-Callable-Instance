@@ -17,7 +17,7 @@ A simples but efficient way to implement a caching police to improve peformace. 
 
 ### Test
 
-1. To run the Pytest suite.
+1. To run Pytest suite do as follows.
 
    ```
    pytest
