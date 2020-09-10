@@ -1,4 +1,3 @@
-
 # Python Callable Instances
 
 ### The Pythonic Way To Create A Simple And Yet Efficient Cache.
@@ -11,5 +10,14 @@ A simples but efficient way to implement a caching police to improve peformace. 
 
    ```
    pip3 install -r requirements.txt
+
+   ```
+
+### Test
+
+1. To run the Pytest suite.
+
+   ```
+   pytest
 
    ```
