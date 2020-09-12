@@ -17,7 +17,7 @@ A simples but efficient way to implement a caching police to improve peformace. 
 
 ### Test
 
-1. Rum the following comand to execute Pytest test suite.
+1. Run the following comand to execute Pytest test suite.
 
    ```
    pytest
