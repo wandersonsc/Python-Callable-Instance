@@ -19,9 +19,19 @@ def test_cache(cache):
 
 
 def test_clean_cache(cache):
+    """ Teste the clean cache method """
 
     host = socket.gethostbyname("www.travis-ci.org")
     cache(host)
     cache.clear_cache()
 
     assert cache.search_host(host) is False
+
+
+def test_search_host(cache):
+    """ Teste the search host method """
+
+    host = socket.gethostbyname("www.github.com")
+    cache(host)
+
+    assert cache.search_host(host) is True

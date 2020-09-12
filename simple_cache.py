@@ -20,7 +20,11 @@ class Cache:
         return self.cache[hostname]
 
     def clear_cache(self):
+        """ Clear the host_name cache """
+
         return self.cache.clear()
 
     def search_host(self, hostname):
+        """ Search for a specific host_name in cache """
+
         return hostname in self.cache
