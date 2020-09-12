@@ -3,11 +3,25 @@ import socket
 from simple_cache import Cache
 
 
-def test_cache():
+@pytest.fixture(scope="module")
+def cache():
+    cache = Cache()
+    return cache
+
+
+def test_cache(cache):
 
     host = socket.gethostbyname("www.google.com")
-    cache = Cache()
 
     assert host in cache(host)
 
     # www.google.com': '172.217.28.228
+
+
+def test_clean_cache(cache):
+
+    host = socket.gethostbyname("www.travis-ci.org")
+    cache(host)
+    cache.clear_cache()
+
+    assert cache.search_host(host) is False
