@@ -4,7 +4,7 @@
 
 ### The Pythonic Way To Create A Simple And Yet Efficient Cache.
 
-A simple but efficient way to implement a caching police to improve peformace. And in the process we are going to lern the how to use the build in `__call__`, which allows instaces of classes to be callable objects.
+A simple but efficient way to implement a caching police to improve peformace. And in the process we are going to learn how to use the build in `__call__` method which allows instaces of classes to be callable objects.
 
 ### Setup
 
