@@ -8,7 +8,7 @@ A simples but efficient way to implement a caching police to improve peformace. 
 
 ### Setup
 
-1. Assuming you have Python setup, run the following commands (if you're on Windows you may use `py` or `py -3` instead of `python` to start Python):
+1. Assuming you have Python setup, run the following command (if you're on Windows you may use `py` or `py -3` instead of `python` to start Python):
 
    ```
    pip3 install -r requirements.txt
@@ -17,7 +17,7 @@ A simples but efficient way to implement a caching police to improve peformace. 
 
 ### Test
 
-1. To run Pytest suite do as follows.
+1. Rum the following comand to execute Pytest test suite.
 
    ```
    pytest

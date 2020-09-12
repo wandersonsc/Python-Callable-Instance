@@ -28,3 +28,9 @@ class Cache:
         """ Search for a specific host_name in cache """
 
         return hostname in self.cache
+
+    def get_all_host(self):
+
+        return {
+            host: ip for host, ip in self.cache.items()
+        }
